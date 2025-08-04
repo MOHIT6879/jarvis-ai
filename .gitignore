@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env/
+jarvis-env/
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+*.log
+secrets.json
+*.env
+desktop.ini
+*.wav
+.cache/

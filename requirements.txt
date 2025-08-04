@@ -1,0 +1,15 @@
+faster-whisper
+TTS
+openai
+requests
+sounddevice
+scipy
+pydub
+numpy
+pyautogui
+pyttsx3
+keyboard
+psutil
+langchain
+python-dotenv
+rich

@@ -1,6 +1,6 @@
 # 🎙️ Jarvis - Voice Assistant (Offline+LLM Enabled)
 
-Jarvis is a voice-activated AI assistant that can perform tasks like opening websites, searching online, providing weather updates, reading the news, answering questions using an LLM (via OpenRouter), and even remembering what you tell it—all through natural speech.
+Jarvis is a voice-activated AI assistant that can perform tasks like opening websites, searching online, providing weather updates, answering questions using an LLM (via OpenRouter), and even remembering what you tell it—all through natural speech.
 
 ---
 
@@ -10,7 +10,6 @@ Jarvis is a voice-activated AI assistant that can perform tasks like opening web
 - ✅ Natural voice command handling via [Whisper](https://github.com/openai/whisper) ASR
 - ✅ Task execution (open YouTube, Gmail, play music, etc.)
 - ✅ Weather updates via `wttr.in`
-- ✅ Real-time news via [NewsAPI](https://newsapi.org/)
 - ✅ Memory (basic in-session recall)
 - ✅ LLM integration via [OpenRouter](https://openrouter.ai/)
 - ✅ Graceful shutdown via commands like "Shutdown Jarvis", "Goodbye", etc.
@@ -27,13 +26,10 @@ Python 3.11
 We recommend using a virtual environment:
 
 python -m venv venv
-source venv/bin/activate     # On Windows: venv\Scripts\activate
+On Windows: venv\Scripts\activate
 Install the dependencies:
-
-
 pip install -r requirements.txt
 📦 requirements.txt
-
 
 pyttsx3
 fuzzywuzzy
